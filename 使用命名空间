@@ -1,0 +1,15 @@
+#include<iostream>
+#include<cstdio>
+using namespace std;
+namespace 帅哥
+{
+	char name1[20] = "zhangyimou";
+	char name2[20] = "wangzizhu";
+}
+int main() 
+{
+
+	cout << 帅哥::name1 << endl;
+	cout << 帅哥::name2 << endl;
+
+}
